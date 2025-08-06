@@ -97,6 +97,7 @@ resume-matcher/
 
 
 📝 Future Improvements
+
  1 Add PDF preview before download
  2 Allow exporting all results as CSV
  3 Improve skill-matching using synonym detection (e.g. “ML” ≈ “Machine Learning”)
