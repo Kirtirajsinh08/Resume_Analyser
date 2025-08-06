@@ -76,15 +76,22 @@ http://127.0.0.1:5000
 📂 Project Structure
 resume-matcher/
 │
+
 ├── uploads/              # 📤 Uploaded resumes (auto-created)
+
 ├── static/
 │   ├── styles.css        # 🎨 Custom dark theme
 │   └── skill_score_chart.png  # 📊 Chart output
+
 ├── templates/
 │   └── index.html        # 🖼️ Main UI
+
 ├── main.py               # 🧠 Core logic
+
 ├── requirements.txt      # 📦 Python packages
+
 └── README.md             # 📘 This file
+
 
 
 📝 Future Improvements
