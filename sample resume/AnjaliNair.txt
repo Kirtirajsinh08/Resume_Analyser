@@ -1,0 +1,22 @@
+Anjali Nair  
+Email: anjali.nair24@gmail.com  
+Phone: 92457 88001  
+Location: Chennai, India
+
+PROFILE  
+Creative developer with solid React and Node knowledge. Strong understanding of responsive design and user experience principles.
+
+PROJECTS  
+- Developed an online resume builder using MERN stack  
+- Stored user resumes in MongoDB  
+- Managed API requests and data formatting via Express.js
+
+SKILLS  
+JavaScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, Git, RESTful APIs
+
+EDUCATION  
+Bachelor of Engineering, Chennai Tech College (2020–2024)
+
+ACCOMPLISHMENTS  
+- Contributed to 5+ collaborative GitHub repositories  
+- Completed Full Stack JS Bootcamp

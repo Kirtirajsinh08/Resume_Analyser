@@ -1,0 +1,22 @@
+Neeraj Reddy  
+Email: neeraj.researcher@gmail.com  
+Phone: 98934 67101  
+Location: Hyderabad, India
+
+PROFILE  
+Machine Learning enthusiast with a focus on predictive analytics and research.
+
+PROJECTS  
+- Built ML models using sklearn and pandas  
+- Trained a recommendation engine for movie suggestions  
+- No frontend/web experience
+
+SKILLS  
+Python, Numpy, Pandas, Matplotlib, Scikit-learn, Flask
+
+EDUCATION  
+M.Sc. Data Science, AI Academy (2020–2024)
+
+ACCOMPLISHMENTS  
+- Top 5% in Kaggle competition  
+- Published 2 ML blogs

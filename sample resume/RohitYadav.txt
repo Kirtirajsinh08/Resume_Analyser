@@ -1,0 +1,22 @@
+Rohit Yadav  
+Email: rohit.ydv@protonmail.com  
+Phone: 90218 54796  
+Location: Delhi, India
+
+PROFILE  
+Aspiring backend engineer with strong Node.js skills. Looking to gain more experience in frontend development.
+
+PROJECTS  
+- Designed RESTful APIs for a food delivery app  
+- Connected MongoDB database to Node backend  
+- UI built with vanilla JavaScript
+
+SKILLS  
+Node.js, Express.js, MongoDB, JavaScript, Git, SQL
+
+EDUCATION  
+B.Sc. in Computer Science, North Campus College (2020–2023)
+
+ACCOMPLISHMENTS  
+- Authored blog posts on API security  
+- Volunteered as coding mentor for high school students

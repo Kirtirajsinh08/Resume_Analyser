@@ -1,0 +1,22 @@
+Tanvi Kulkarni  
+Email: tanvi.k@edu.org  
+Phone: 98732 99001  
+Location: Bhopal, India
+
+PROFILE  
+AI student passionate about NLP and data storytelling.
+
+PROJECTS  
+- Created a chatbot using Rasa and spaCy  
+- No React or Node experience  
+- Worked on LSTM models for text generation
+
+SKILLS  
+Python, NLP, spaCy, TensorFlow, Matplotlib, Streamlit
+
+EDUCATION  
+B.Tech in Artificial Intelligence, SmartTech Institute (2020–2024)
+
+ACCOMPLISHMENTS  
+- Co-authored research paper on BERT  
+- Won AI Hackathon 2023

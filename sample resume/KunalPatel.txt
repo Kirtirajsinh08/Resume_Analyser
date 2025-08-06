@@ -1,0 +1,22 @@
+Kunal Patel  
+Email: kunalpatel.dev@gmail.com  
+Phone: 97802 22945  
+Location: Ahmedabad, India
+
+PROFILE  
+Full stack enthusiast with backend and deployment exposure. Committed to clean code and collaborative workflows.
+
+PROJECTS  
+- Created a chat application using Node.js and Socket.IO  
+- Frontend with React and styled-components  
+- Used MongoDB Atlas for real-time message persistence
+
+SKILLS  
+React.js, Node.js, Express, JavaScript, MongoDB, Git, GitHub, REST API
+
+EDUCATION  
+B.Tech in CSE, Vision Institute of Technology (2020–2024)
+
+ACCOMPLISHMENTS  
+- Hosted live demos via Netlify and Heroku  
+- Winner of internal project competition

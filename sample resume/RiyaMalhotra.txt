@@ -1,0 +1,24 @@
+Riya Malhotra  
+Email: riya.devwork@gmail.com  
+Phone: 93210 67894  
+Location: Remote, India
+
+PROFILE  
+Energetic developer with a focus on building full-stack JavaScript applications using modern tools and frameworks. Committed to delivering robust and maintainable codebases.
+
+PROJECTS  
+- Designed a job portal using the MERN stack  
+- Used Redux Toolkit for scalable state management  
+- Integrated JWT for login and user access  
+- Deployed using Heroku (backend) and Netlify (frontend)
+
+SKILLS  
+JavaScript ES6+, React.js, Node.js, Express.js, MongoDB, Redux, HTML, CSS, Git, REST API, Bootstrap, Heroku, Netlify
+
+EDUCATION  
+Bachelor of Engineering in Computer Science, NeoTech Institute (2020–2024)
+
+ACCOMPLISHMENTS  
+- Finalist at CodeSprint Hackathon  
+- Built 10+ React.js projects on GitHub  
+- Certified in MERN stack from Udemy

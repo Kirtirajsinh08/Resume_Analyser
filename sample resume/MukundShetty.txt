@@ -1,0 +1,40 @@
+Mukund Shetty
+m.shetty24@gmail.com
+92457 88001
+
+Objective:
+To secure an entry-level position as a MERN Stack Developer where I can apply my knowledge of MongoDB, Express.js, React.js, and Node.js in developing scalable web applications.
+
+Technical Skills:
+- Proficient in JavaScript ES6+, HTML, CSS
+- Hands-on experience in React.js and Node.js
+- Basic knowledge of MongoDB and Express.js
+- Version control with Git/GitHub
+- Familiarity with Redux and state management
+- Deployment experience on Heroku and Netlify
+
+Projects:
+1. Personal Portfolio Website
+   - Built using React.js and deployed on Netlify
+   - Showcased projects and resume
+   - Implemented responsive design
+
+2. E-Commerce Web App
+   - Developed with MERN Stack
+   - Integrated payment gateway
+   - RESTful APIs with Node.js and Express.js
+   - MongoDB used for database management
+
+Experience:
+Intern – Web Developer, CodeBridge Labs
+- Developed and maintained web applications using MERN Stack
+- Participated in daily stand-ups and sprint planning
+- Collaborated with UI/UX designers to create modern interfaces
+
+Education:
+B.Tech in Computer Science
+XYZ University – 2024
+
+Soft Skills:
+- Strong communication and problem-solving skills
+- Team collaboration and Agile methodology understanding

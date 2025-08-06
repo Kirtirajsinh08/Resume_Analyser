@@ -1,0 +1,149 @@
+<!--
+============================================
+🌐 Resume Matcher Frontend Template (index.html)
+→ Built with: HTML5 + Jinja2 (Flask templating) + Bootstrap + Custom CSS
+→ Features:
+   📝 Job Description input
+   📤 Multiple Resume Uploads
+   📊 Results Table with Progress Bars
+   📈 Skill Score Chart
+============================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 🧠 Basic Meta & Page Setup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Matcher</title>
+
+    <!-- 🎨 Link to external custom styles (from 'static/styles.css') -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <!-- 💄 Bootstrap CDN for responsive design & components -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 🧱 Outer container to center everything and add padding -->
+    <div class="container py-5">
+        <!-- 📄 Card for main form and results -->
+        <div class="card mx-auto" style="max-width: 1000px;">
+            <div class="card-header text-center">
+                <h2>Smart Resume Matcher</h2> <!-- 🔍 Title of the app -->
+            </div>
+
+            <div class="card-body p-4 bg-dark">
+                <!-- 📝 Form to submit Job Description and Resume files -->
+                <form action="/resume-matcher" method="post" enctype="multipart/form-data">
+                    <!-- 📋 Job Description Text Area -->
+                    <div class="mb-3">
+                        <label for="job-description" class="form-label">📝 Job Description</label>
+                        <textarea placeholder="Paste job description here..." class="form-control" id="job-description"
+                            name="job-description" rows="5" required></textarea>
+                    </div>
+
+                    <!-- 📂 Resume File Upload Input -->
+                    <div class="mb-4">
+                        <label for="resume_files" class="form-label">📤 Upload Resumes</label>
+                        <input type="file" class="form-control" id="resume_files" name="resume_files" multiple required
+                            accept=".pdf,.docx,.txt">
+                    </div>
+
+                    <!-- 🚀 Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Get The Results</button>
+                    </div>
+                </form>
+
+                <!-- 🧾 Show message if required fields are missing -->
+                {% if message %}
+                <div class="alert alert-info mt-4">{{ message }}</div>
+                {% endif %}
+
+                <!-- 📊 Display Matching Results Table -->
+                {% if top_matches %}
+                <div class="table-responsive mt-4">
+                    <h5 class="text-center text-light mb-3">🏆 Resume Rankings</h5>
+
+                    <!-- 📋 Table structure with Bootstrap styles -->
+                    <table class="table table-dark table-striped align-middle">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Mobile</th>
+                                <th>Similarity (%)</th>
+                                <th>Skill Score (out of 10)</th>
+                                <th>PDF</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for match in top_matches %}
+                            <!-- 🎨 Dynamically choose progress bar color based on similarity -->
+                            {% set badge_class = 'bg-success' if match.similarity >= 75 else 'bg-warning' if
+                            match.similarity >= 50 else 'bg-danger' %}
+
+                            <tr>
+                                <!-- 🔢 Rank -->
+                                <td>{{ loop.index }}</td>
+
+                                <!-- 👤 Candidate Name -->
+                                <td>{{ match.name }}</td>
+
+                                <!-- 📧 Clickable Email if found -->
+                                <td>
+                                    {% if match.email != 'Not found' %}
+                                    <a href="mailto:{{ match.email }}" class="text-info">{{ match.email }}</a>
+                                    {% else %} Not found {% endif %}
+                                </td>
+
+                                <!-- 📱 Phone Number -->
+                                <td>{{ match.mobile }}</td>
+
+                                <!-- 📈 Similarity Score -->
+                                <td>
+                                    <!-- 🟢 Badge showing % similarity -->
+                                    <span class="badge {{ badge_class }}">{{ match.similarity }}%</span>
+
+                                    <!-- 📊 Bootstrap Progress Bar (color-coded) -->
+                                    <div class="progress mt-2" style="height: 10px;">
+                                        <div class="progress-bar {{ badge_class }}" role="progressbar"
+                                            style="width: {{ match.similarity }}%"></div>
+                                    </div>
+                                </td>
+
+                                <!-- 🎯 Skill Score -->
+                                <td>
+                                    <span class="badge bg-info text-dark">{{ match.skill_score }}/10</span>
+                                </td>
+
+                                <!-- 📎 Download Resume as PDF -->
+                                <td>
+                                    <a href="{{ url_for('download_file', filename=match.pdf_filename) }}"
+                                        class="btn btn-sm btn-outline-light">Download</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 📉 Skill Score Distribution Graph -->
+                <div class="text-center mt-5">
+                    <h5 class="text-light">📈 Skill Match Score on Scale of 10</h5>
+
+                    <!-- 🖼 Bar Chart Image -->
+                    <img src="{{ url_for('static', filename=chart_path.split('/')[-1]) }}" class="img-fluid mt-2"
+                        style="max-height: 300px;">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

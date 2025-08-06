@@ -1,0 +1,22 @@
+Sneha Kapoor  
+Email: sneha.kapoor@mail.com  
+Phone: 98101 44556  
+Location: Indore, India
+
+PROFILE  
+CS student with knowledge of web and backend development. Worked on class projects and minor freelance assignments.
+
+PROJECTS  
+- Created a basic travel planner using Node.js  
+- Frontend with Bootstrap, minimal React  
+- MySQL for data persistence
+
+SKILLS  
+JavaScript, HTML, CSS, Node.js, MySQL, Bootstrap
+
+EDUCATION  
+BCA, CityTech Institute (2020–2023)
+
+ACCOMPLISHMENTS  
+- Completed Web Development Internship  
+- CodeChef 2-star coder

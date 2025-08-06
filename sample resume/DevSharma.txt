@@ -1,0 +1,22 @@
+Dev Sharma  
+Email: dev.sharma@codehub.io  
+Phone: 99873 45678  
+Location: Pune, India
+
+PROFILE  
+Frontend-leaning full stack developer with practical MERN project experience and strong design sense. Passionate about building seamless user interfaces.
+
+PROJECTS  
+- Created a content sharing platform using MongoDB, Express, React, and Node  
+- Integrated GitHub login using OAuth  
+- REST APIs for content upload, edit, and delete
+
+SKILLS  
+React.js, Node.js, Express.js, JavaScript, HTML, CSS, MongoDB, Bootstrap, REST APIs, Git
+
+EDUCATION  
+B.Tech in Information Technology, FutureTech University (2020–2024)
+
+ACCOMPLISHMENTS  
+- Designed multiple portfolio sites using React  
+- Contributed to campus management system as backend lead

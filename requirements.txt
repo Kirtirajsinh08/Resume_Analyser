@@ -1,0 +1,11 @@
+flask
+PyPDF2
+docx2txt
+scikit-learn
+gunicorn
+python-dotenv
+spacy
+en_core-web-sm 
+sentence-transformers
+nltk
+matplotlib 

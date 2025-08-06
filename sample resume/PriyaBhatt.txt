@@ -1,0 +1,22 @@
+Priya Bhatt  
+Email: priyabhatt.tech@gmail.com  
+Phone: 99023 48115  
+Location: Mumbai, India
+
+PROFILE  
+Junior developer with experience in JavaScript and backend technologies. Recently explored frontend frameworks.
+
+PROJECTS  
+- Built a Django-based school portal  
+- Used Bootstrap for frontend design  
+- Implemented login, notifications, and teacher-student module
+
+SKILLS  
+HTML, CSS, JavaScript, Bootstrap, Django, Git, SQL
+
+EDUCATION  
+B.E. in Computer Engineering, Blue Valley College (2020–2024)
+
+ACCOMPLISHMENTS  
+- Completed “JavaScript for Beginners” on Coursera  
+- Interned at web dev startup for 3 months

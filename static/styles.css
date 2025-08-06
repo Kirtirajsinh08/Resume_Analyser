@@ -1,0 +1,45 @@
+body {
+    background-color: #666565 !important;
+    color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1e1e1e;
+}
+
+.card-header {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    font-weight: bold;
+}
+
+.form-control,
+.form-label {
+    background-color: #2b2b2b;
+    color: #f8f9fa;
+    border: 1px solid #555;
+}
+
+input::file-selector-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+a.text-info {
+    color: #66d9ef;
+}
