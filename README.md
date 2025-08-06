@@ -52,7 +52,8 @@
 | 🎨 Custom CSS              | Dark mode styling                      |
 
 
-🚀 Setup Instructions 
+🚀 Setup Instructions
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/resume-matcher.git
 cd resume-matcher
