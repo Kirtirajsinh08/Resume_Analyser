@@ -80,7 +80,9 @@ resume-matcher/
 ├── uploads/              # 📤 Uploaded resumes (auto-created)
 
 ├── static/
+
 │   ├── styles.css        # 🎨 Custom dark theme
+
 │   └── skill_score_chart.png  # 📊 Chart output
 
 ├── templates/
