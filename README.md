@@ -99,10 +99,15 @@ resume-matcher/
 📝 Future Improvements
 
  1 Add PDF preview before download
+ 
  2 Allow exporting all results as CSV
+ 
  3 Improve skill-matching using synonym detection (e.g. “ML” ≈ “Machine Learning”)
+ 
  4 Support for multi-page JD or resumes
+ 
  5 User authentication for saving results
+ 
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
